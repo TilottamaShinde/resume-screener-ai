@@ -1,0 +1,11 @@
+Job Title: Python Developer
+
+We are looking for a Python Developer with experience in:
+- Python
+- Pandas
+- NumPy
+- REST APIs
+- SQL and PostgreSQL
+- Flask or Django frameworks
+- Git version control
+- Good communication skills
