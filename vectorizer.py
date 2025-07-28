@@ -38,7 +38,7 @@ def get_semantic_similarity(resume_text: str, job_description: str) -> float:
             float: Semantic similarity score.
         """
     if not ADVANCED:
-        rais ImportError("SentenceTransformer is not installed. Run: pip install sentence-transformer")
+        raise ImportError("SentenceTransformer is not installed. Run: pip install sentence-transformer")
 
     embeddings = model.encode([resume_text, job_description])
     score = cosine_similarity([embeddings[0]], [embeddings[1]])[0][0]
