@@ -16,3 +16,22 @@ An AI-powered Python project to automatically screen and score resumes based on 
 
 ## 🗂 Project Structure
 
+resume_screener_ai/
+
+├──  # Folder to place all the PDF resumes
+
+├── job_description.txt # Paste the job description here
+
+├── screener.py # Main script to run
+
+├── export_results.py # Exports results to CSV
+
+├── 
+
+│ └── parse_resume.py # PDF text extraction logic
+
+├── screening_results.csv # Output file with results
+
+├── requirements.txt # Dependencies list
+
+└── README.md # Project documentation
