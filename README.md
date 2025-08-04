@@ -30,6 +30,20 @@ resume_screener_ai/
 
 │ └── parse_resume.py # PDF text extraction logic
 
+
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/resume-screener-ai.git
+cd resume-screener-ai
+```
+
 ├── screening_results.csv # Output file with results
 
 ├── requirements.txt # Dependencies list
