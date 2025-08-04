@@ -49,3 +49,22 @@ cd resume-screener-ai
 ├── requirements.txt # Dependencies list
 
 └── README.md # Project documentation
+
+python3 -m venv .venv
+
+source .venv/bin/activate  # On macOS/Linux
+
+# .venv\Scripts\activate   # On Windows
+
+pip install -r requirements.txt
+
+
+## Future Improvements
+
+Add Streamlit web UI
+
+Visualize match scores
+
+Integrate with email/job portals
+
+NLP-powered keyword suggestions
